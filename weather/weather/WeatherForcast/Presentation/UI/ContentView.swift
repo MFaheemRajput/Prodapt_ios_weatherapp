@@ -79,10 +79,6 @@ struct ContentView: View {
                         .font(Font.system(.title))
                 }).navigationViewStyle(StackNavigationViewStyle())//: NAVIGATION
             }.sheet(isPresented: self.$isPresented, onDismiss: {
-                
-                print(self.selectedLocation.lat)
-                print(self.selectedLocation.lon)
-                print(self.selectedLocation.name)
                 viewModel.load(lat: self.selectedLocation.lat ?? 0.0 , long: self.selectedLocation.lon ?? 0.0)
                 
             
@@ -152,8 +148,3 @@ struct ContentView: View {
     }
 }
 
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}
