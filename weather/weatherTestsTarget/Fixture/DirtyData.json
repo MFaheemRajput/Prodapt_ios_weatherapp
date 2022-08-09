@@ -27,11 +27,7 @@
       "clouds": {
         "all": 78
       },
-      "wind": {
-        "speed": 2.93,
-        "deg": 275,
-        "gust": 3.91
-      },
+      "wind": {},
       "visibility": 10000,
       "pop": 0,
       "sys": {

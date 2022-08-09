@@ -33,6 +33,7 @@ class ForcastTest: XCTestCase {
         if let forcasts = data {
             
             XCTAssertEqual("", forcasts.list![0].weather![0].main)
+            XCTAssertNil(forcasts.list![0].wind, "wind is empty")
         }
     }
     
@@ -50,13 +51,4 @@ class ForcastTest: XCTestCase {
         }
         return nil
     }
-
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
