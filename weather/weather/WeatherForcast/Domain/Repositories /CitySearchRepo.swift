@@ -1,6 +1,6 @@
 //
-//  BeerRepo.swift
-//  gerimedica
+//  CitySearchRepo.swift
+//  weather
 //
 //  Created by Muhammad Faheem Khan on 23/07/2022.
 //

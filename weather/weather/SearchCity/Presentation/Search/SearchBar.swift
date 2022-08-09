@@ -1,10 +1,3 @@
-//
-//  SearchBar.swift
-//  ios-app
-//
-//  Created by Tanveer Ashraf on 29/06/2022.
-//
-
 import SwiftUI
 
 struct SearchBar: View {
